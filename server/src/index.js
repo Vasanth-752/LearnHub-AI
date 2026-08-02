@@ -13,6 +13,7 @@
  *  8. Global error handler (MUST be last)
  */
 
+import 'dotenv/config';
 import './config/env.js' // Crash-fast on missing env vars — import FIRST
 import { env } from './config/env.js'
 

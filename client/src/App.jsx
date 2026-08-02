@@ -1,5 +1,5 @@
-import { Routes, Route, Navigate, useEffect } from 'react-router-dom'
-import { AnimatePresence } from 'framer-motion'
+import { Routes, Route, Navigate } from 'react-router-dom'
+import { useEffect } from 'react'
 import { ThemeProvider } from './hooks/useTheme'
 import { useAuthStore } from './store/authStore'
 import { ErrorBoundary } from './components/ui'
