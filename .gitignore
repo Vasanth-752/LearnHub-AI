@@ -1,0 +1,47 @@
+# ────────────────────────────────────────────────────────────────────────────
+# LearnHub AI — Root .gitignore
+# ────────────────────────────────────────────────────────────────────────────
+
+# Environment variables — NEVER commit these
+**/.env
+**/.env.local
+**/.env.production
+**/.env.development
+
+# Node modules
+**/node_modules/
+
+# Build outputs
+client/dist/
+client/.vite/
+
+# Logs
+**/*.log
+**/logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TypeScript build info
+**/*.tsbuildinfo
+
+# Vercel & deployment
+.vercel/
+.render/
+
+# Coverage reports
+**/coverage/
